@@ -4,7 +4,15 @@ AI-driven attendance monitoring web app for Holy Heart Christian Academy (HHCA),
 
 > **Live website:** https://hhca-attendance.site
 >
-> 
+> **Mobile app (Android APK):** _paste your Google Drive APK link here_
+>
+## Test accounts (web)
+
+| Role | Email | Password |
+| --- | --- | --- |
+| Admin | admin@hhca.edu.ph | admin1234 |
+| Guidance counselor | mm@gmail.com | Hhca1234 |
+| Teacher | t1@gmail.com | Hhca1234 |
 
 ## Features
 
