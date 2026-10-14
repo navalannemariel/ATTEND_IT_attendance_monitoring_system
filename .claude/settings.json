@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oE \"@name \\(Music|BarChart3|BarChart|BookOpen|CalendarClock|UserCheck|ClipboardList|FileSpreadsheet\\)$\" node_modules/lucide-react/dist/lucide-react.d.ts)",
+      "Bash(grep -oE \"@name \\(Chart[A-Za-z]*|BarChart[A-Za-z0-9]*\\)$\" node_modules/lucide-react/dist/lucide-react.d.ts)",
+      "Bash(npx eslint *)",
+      "Bash(grep -oE \"@name \\(PanelLeft|PanelLeftClose|PanelLeftOpen|PanelLeftDashed|ChevronsLeft|ChevronsRight|ChevronLeft|ChevronRight|Sidebar\\)$\" node_modules/lucide-react/dist/lucide-react.d.ts)"
+    ]
+  }
+}
