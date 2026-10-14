@@ -2,7 +2,12 @@
 
 AI-driven attendance monitoring web app for Holy Heart Christian Academy (HHCA), Manila. This repository contains the **frontend** (Next.js App Router) with role-based dashboards for administrators, teachers, and guidance counselors.
 
-> **Deployed URL:** https://hhca-attendance.site/login
+> **Live website:** https://hhca-attendance.site
+>
+> **Mobile app (Android APK):** _paste your Google Drive APK link here_
+>
+> **Test accounts:** available on request from the project owner (not published here).
+
 ## Features
 
 - **Login and account security:** Firebase Authentication, OTP verification, forgot/reset password, forced password change, privacy consent.
@@ -155,5 +160,5 @@ Then paste the live URL at the top of this README.
 ## Notes
 
 - `src/lib/mock-data.js` contains placeholder data used by some dashboards.
-- `src/lib/auth.js` contains sample credentials (admin/teacher/guidance). Treat them as demo/mock values and remove them before any production deployment.
+- `src/lib/auth.js` contains hard-coded sample credentials (admin/teacher/guidance). At least the admin one matches a real account on the live site, so remove them from the code and change those passwords.
 - Firebase web config values are not secret, but access should be locked down with Firebase security settings and authorized domains.
