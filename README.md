@@ -2,8 +2,7 @@
 
 AI-driven attendance monitoring web app for Holy Heart Christian Academy (HHCA), Manila. This repository contains the **frontend** (Next.js App Router) with role-based dashboards for administrators, teachers, and guidance counselors.
 
-> **Deployed URL:** _none yet — add it here once deployed._
-
+> **Deployed URL:** https://hhca-attendance.site/login
 ## Features
 
 - **Login and account security:** Firebase Authentication, OTP verification, forgot/reset password, forced password change, privacy consent.
